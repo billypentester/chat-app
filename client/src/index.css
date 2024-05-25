@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    width: 100%;
+    height: 100vh;
+    padding: 0.5rem;
+    background-color: #E5E5E5;
+}
+
+.chat-start {
+    width: 6%;
+    height: 100%;
+    background-color: #1F1D1D;
+    border-radius: 10px;
+}
+
+.chat-middle {
+    width: 24%;
+    height: 100%;
+    background-color: #1F1D1D;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.chat-end {
+    width: 70%;
+    height: 100%;
+    background-color: #1F1D1D;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.strip-list-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.active-nav span {
+    color: #00a2ff;
+}
+
+.active-nav svg {
+    color: #00a2ff;
+}
